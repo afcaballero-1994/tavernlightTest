@@ -1,0 +1,9 @@
+Module
+  name: question
+  description: Show button random location
+  author: Andres
+  website: -
+  sandboxed: true
+  scripts: [ question ]
+  @onLoad: init()
+  @onUnload: terminate()
